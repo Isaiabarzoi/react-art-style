@@ -1,0 +1,40 @@
+Vanilla CSS
+
+Advantages:
+
+- CSS code is decoupled from JSX code
+- You write CSS code as you (maybe) know and (maybe) love it
+- CSS code can be written by another developer who needs only a minimal amount of access to your JSX code
+
+Disadvantages:
+
+- You need to know CSS
+- CSS code is not scoped to components → CSS rules may clash across components (e.g., same CSS class name used in different components for different purposes)
+
+Inline Style
+
+Advantages:
+
+- Quick & easy to add to JSX
+- Styles only a!ect the element to which you add them
+- Dynamic (conditional) styling is simple
+
+Disadvantages:
+
+- You need to know CSS
+- You need to style every element individually
+- No separation between CSS & JSX code
+
+CSS Modules
+
+Advantages:
+
+- CSS code is decoupled from JSX code
+- You write CSS code as you (maybe) know and (maybe) love it
+- CSS code can be written by another developer who needs only a minimal amount of access to your JSX code
+- CSS classes are scoped to the component (files) which import them → No CSS class name clashes
+
+Disadvantages:
+
+- You need to know CSS
+- You may end up with many relatively small CSS files in your project
