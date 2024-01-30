@@ -1,4 +1,4 @@
-Vanilla CSS
+## Vanilla CSS
 
 Advantages:
 
@@ -11,12 +11,12 @@ Disadvantages:
 - You need to know CSS
 - CSS code is not scoped to components → CSS rules may clash across components (e.g., same CSS class name used in different components for different purposes)
 
-Inline Style
+## Inline Style
 
 Advantages:
 
 - Quick & easy to add to JSX
-- Styles only a!ect the element to which you add them
+- Styles only affect the element to which you add them
 - Dynamic (conditional) styling is simple
 
 Disadvantages:
@@ -25,7 +25,7 @@ Disadvantages:
 - You need to style every element individually
 - No separation between CSS & JSX code
 
-CSS Modules
+## CSS Modules
 
 Advantages:
 
@@ -39,7 +39,7 @@ Disadvantages:
 - You need to know CSS
 - You may end up with many relatively small CSS files in your project
 
-Styled Components
+## Styled Components
 
 npm install styled-components
 
