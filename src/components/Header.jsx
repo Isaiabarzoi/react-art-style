@@ -1,5 +1,5 @@
 import logo from "../assets/logo.png";
-import { styled } from "styled-components";
+import styled from "styled-components";
 
 const StyledHeader = styled.header`
   display: flex;
