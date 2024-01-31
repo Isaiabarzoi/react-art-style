@@ -54,3 +54,17 @@ Disadvantages:
 - You need to know CSS
 - No clear separation of React & CSS code
 - You end up with many relatively small “wrapper” components
+
+## Tailwind CSS
+
+Advantages:
+
+- You don't need to know (a lot about) CSS Rapid development
+- No style clashes between components since you don't define any CSS rules
+- Highly configurable & extensible
+
+Disadvantages:
+
+- Relatively long className values
+- Any style changes require editing JSX
+- You end up with many relatively small "wrapper" components or lots of copy & pasting
